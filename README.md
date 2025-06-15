@@ -52,9 +52,6 @@ Below are my notes:
 **7.** Removed mx-installer
 
 
-**Link:**
-[kosher-android-tools-1.1.iso](https://drive.google.com/drive/folders/15JVaaMVJDGimNhRS1JMXKvx8FPVbijOa)
-
 **Password:** *demo*
 
 
