@@ -52,7 +52,7 @@ Below are my notes:
 **7.** Removed mx-installer
 
 
-**Password:** *demo*
+# **Password:** *demo*
 
 
 # Update
