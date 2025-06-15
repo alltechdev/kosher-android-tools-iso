@@ -6,6 +6,9 @@ mxlinux snapshot- with mtkclient/autobooter &amp; more
 
 Let me know if there are any vulnerabilities or performance issues.
 
+# IMPORTANT: 
+
+Your external drive will be mounted at /media/demo/your_drive. When using mtk client, go to that path to save or load.
 
 # Included?
 
