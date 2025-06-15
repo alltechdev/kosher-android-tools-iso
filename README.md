@@ -1,7 +1,7 @@
 # kosher-android-tools-iso
 mxlinux snapshot- with mtkclient/autobooter &amp; more
 
-(part of the lockdown script is not necessary anymor, as I removed wge, curl, nmcli, and ping from /usr/bin)
+(part of the lockdown script is not necessary anymore, as I removed wget, curl, nmcli, and ping from /usr/bin)
 
 # Source
 
