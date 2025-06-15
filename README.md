@@ -1,6 +1,10 @@
 # kosher-android-tools-iso
 mxlinux snapshot- with mtkclient/autobooter &amp; more
 
+# Source
+
+[mxlinux iso](https://mxlinux.org/download-links)
+
 # Kosher Live ISO with mtkclient/autobooter (no Internet access)
 *(and other tools, but not working 100 percent yet)*
 
@@ -53,13 +57,5 @@ Below are my notes:
 # Update
 
 I am putting aside auto-mounting internal drives. Too many issues unless I'm just missing something. External drives work fine.
-
-# Source
-
-[mxlinux iso](https://mxlinux.org/download-links)
-
-**lockdown.sh**
-
-**autobooter.sh**
 
 
