@@ -54,9 +54,6 @@ Below are my notes:
 
 # **Password:** *demo*
 
-
-# Update
-
 I am putting aside auto-mounting internal drives. Too many issues unless I'm just missing something. External drives work fine.
 
 
