@@ -1,6 +1,8 @@
 # kosher-android-tools-iso
 mxlinux snapshot- with mtkclient/autobooter &amp; more
 
+(part of the lockdown script is not necessary anymor, as I removed wge, curl, nmcli, and ping from /usr/bin)
+
 # Source
 
 [mxlinux iso](https://mxlinux.org/download-links)
@@ -14,14 +16,14 @@ Let me know if there are any vulnerabilities or performance issues.
 
 Your external drive will be mounted at /media/demo/your_drive. When using mtk client, go to that path to save or load.
 
-# Included?
+# Included
 
 mtkclient
 
 autobooter
 
 
-# What doesn't work?
+# Not Working
 
 adb & fastboot (scrcpy included)
 
