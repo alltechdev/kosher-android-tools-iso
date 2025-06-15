@@ -3,6 +3,8 @@ mxlinux snapshot- with mtkclient/autobooter &amp; more
 
 (part of the lockdown script is not necessary anymore, as I removed wget, curl, nmcli, and ping from /usr/bin)
 
+My ideas, scripts written using AI.
+
 # Source
 
 [mxlinux iso](https://mxlinux.org/download-links)
