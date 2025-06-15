@@ -43,7 +43,7 @@ Below are my notes:
 
 **4.** Removed nmcli, wget, curl and ping
 
-**5.** Removed the network icon from the panel (taskbar)
+**5.** Removed the network icon from the panel (taskbar) (nm-applet)
 
 **6.** Stopped user from manually turning network interfaces back on
 
