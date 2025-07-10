@@ -57,6 +57,7 @@ EOF
   # 5. Firewall: block all outbound for non-root
   echo "[5/7] Applying iptables outbound block (non-root)..."
   iptables -A OUTPUT -m owner ! --uid-owner 0 -j REJECT
+  iptables -I OUTPUT 1 -o lo -j ACCEPT
 
   # 6. AppArmor: deny networking for select tools
   echo "[6/7] Installing AppArmor rules (wget, curl)..."
