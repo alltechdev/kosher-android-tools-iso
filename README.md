@@ -21,7 +21,7 @@ Let me know if there are any vulnerabilities or performance issues.
 Below are my notes:
 
 
-# Here's what I got so far
+# What makes this ISO kosher?
 
 **1.** Changed root password
 
