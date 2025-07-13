@@ -44,6 +44,4 @@ Below are my notes:
 
 I am putting aside auto-mounting internal drives. Too many issues unless I'm just missing something. External drives work fine.
 
-Full disclaimer, scripts are partially and fully written by ai. I told it what I wanted, it put it together nicely, and I reviewed it and troubleshooted.
-
 https://github.com/alltechdev/kosher-android-tools-iso
