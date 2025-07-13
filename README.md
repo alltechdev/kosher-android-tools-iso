@@ -1,41 +1,26 @@
-# kosher-android-tools-iso
-mxlinux snapshot- with mtkclient/autobooter &amp; more
-
-_(part of the lockdown script is not necessary anymore, as I removed wget, curl, nmcli, and ping from /usr/bin. Will edit later)_
-
-My ideas, scripts written using AI.
-
-# Source
-
-[mxlinux iso](https://mxlinux.org/download-links)
-
 # Kosher Live ISO with mtkclient/autobooter (no Internet access)
 *(and other tools, but not working 100 percent yet)*
 
 Let me know if there are any vulnerabilities or performance issues.
 
-# IMPORTANT: 
 
-Your external drive will be mounted at /media/demo/your_drive. When using mtk client, go to that path to save or load.
+# What works? 
 
-# Included
+- ADB/Fastboot
+- SCRCPY
+- mtkclient
+- autobooter
+- using external drives
 
-mtkclient
 
-autobooter
-
-
-# Not Working
-
-adb & fastboot (scrcpy included)
-
-mounting internal drives without superuser
+# What doesn't work?
+- mounting internal drives without superuser
 
 
 Below are my notes:
 
 
-# What makes this kosher?
+# Here's what I got so far
 
 **1.** Changed root password
 
@@ -43,17 +28,21 @@ Below are my notes:
 
 **3.** Blocked all outbound traffic for non-root users using firewall
 
-**4.** Removed nmcli, wget, curl and ping
+**4.** removed nmcli, wget, curl and ping
 
-**5.** Removed the network icon from the panel (taskbar) (nm-applet)
+**5.** Removed the network icon from the panel (taskbar)
 
 **6.** Stopped user from manually turning network interfaces back on
 
-**7.** Removed mx-installer
+**7.** Added iptables rule to allow ADB/Fastboot/SCRCPY
 
 
-# **Password:** *demo*
+**Password:** *demo*
+
+
 
 I am putting aside auto-mounting internal drives. Too many issues unless I'm just missing something. External drives work fine.
 
+Full disclaimer, scripts are partially and fully written by ai. I told it what I wanted, it put it together nicely, and I reviewed it and troubleshooted.
 
+https://github.com/alltechdev/kosher-android-tools-iso
