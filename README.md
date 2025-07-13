@@ -1,4 +1,4 @@
-# Kosher Live ISO with mtkclient/autobooter/ADB&Fastboot/SCRCPY (no Internet access)
+# Kosher Live ISO with mtkclient/autobooter/ADB & Fastboot/SCRCPY (no Internet access)
 
 Made using mxlinux snapshot to iso.
 
