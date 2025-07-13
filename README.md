@@ -35,7 +35,9 @@ Below are my notes:
 
 **6.** Stopped user from manually turning network interfaces back on
 
-**7.** Added iptables rule to allow ADB/Fastboot/SCRCPY
+**7.** Auto elevate autobooter to use without sudo
+
+**8.** Added iptables rule to allow ADB/Fastboot/SCRCPY
 
 
 **Password:** *demo*
