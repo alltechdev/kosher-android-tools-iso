@@ -1,6 +1,8 @@
 # Kosher Live ISO with mtkclient/autobooter (no Internet access)
 *(and other tools, but not working 100 percent yet)*
 
+Made using mxlinux snapshot to iso.
+
 Let me know if there are any vulnerabilities or performance issues.
 
 
